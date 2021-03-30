@@ -18,37 +18,37 @@ const FirstScreen = () => {
                 <View style={styles.header}>
                     <Image
                         style={styles.tinyLogo}
-                        source={require('../asses/logo.png')}
+                        source={require('../assets/logo.png')}
                         resizeMode='center'
                     />
                     <Image
                         style={styles.header_title}
-                        source={require('../asses/ok.png')}
+                        source={require('../assets/ok.png')}
                         resizeMode='contain'
                     />
                     <Image
                         style={styles.map}
-                        source={require('../asses/map.png')}
+                        source={require('../assets/map.png')}
                         resizeMode='stretch'
                     />
                     <Image
                         style={styles.cloud1}
-                        source={require('../asses/cloud.png')}
+                        source={require('../assets/cloud.png')}
                         resizeMode='stretch'
                     />
                     <Image
                         style={styles.cloud2}
-                        source={require('../asses/map3.png')}
+                        source={require('../assets/map3.png')}
                         resizeMode='stretch'
                     />
                     <Image
                         style={styles.group}
-                        source={require('../asses/Group.png')}
+                        source={require('../assets/Group.png')}
 
                     />
                     <Image
                         style={styles.home}
-                        source={require('../asses/home.png')}
+                        source={require('../assets/home.png')}
 
                     />
                 </View>

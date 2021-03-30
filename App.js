@@ -12,11 +12,13 @@ import {
 } from 'react-native';
 import FirstScreen from './component/FirstScreen'
 import SecondScreen from './component/SecondScreen'
+import ConfirmOTP from './component/ConfirmOTP'
+import  {assests}from './assests/fonts'
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
      {/* <FirstScreen /> */}
-     <SecondScreen />
+     <ConfirmOTP />
     </SafeAreaView>
   );
 };
